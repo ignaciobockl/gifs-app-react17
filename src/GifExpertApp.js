@@ -5,14 +5,7 @@ import { GifGrid } from './components/GifGrid';
 
 export const GifExpertApp = () => {
   
-    // const categories = ['Rapido y Furioso', 'Los Simpsons', 'Futurama'];
-    const [categories, setCategories] = useState(['Rapido y Furioso'])
-
-    // const handleAdd = () => {
-    //     setCategories( [...categories, 'Duro de Matar'] );
-    //     setCategories( cats => [ ...cats, 'Duro de Matar' ] )
-    // }
-
+    const [categories, setCategories] = useState(['Rapido y Furioso']);
 
     return (
         <>
